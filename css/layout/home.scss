@@ -1,0 +1,216 @@
+body {
+    background: $cor-fundo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    display: flex;
+    align-items: flex-start;
+    height: 496px;
+    width: 936px;
+    padding: 62px;
+
+    .conteudo-titulo{
+        height: 100%;
+        width: 48.7%;
+        display: flex;
+        justify-content: center;
+        flex-shrink: 1;
+        
+        .conteudo-titulo-alinhado{
+            height: 45%;
+            width: 100%;
+            margin-top: 23.8%;
+            display: flex;
+            flex-direction: column;
+            
+            .img-alinhado {
+                flex-grow: 1;
+                margin-bottom: 14%;
+              img{
+                  width: 192px;
+                  height: 37px;
+              }
+            }
+            
+            .titulo-alinhado{
+                max-width: 350px;
+                h1 {
+                    font-size: 54px;
+                    font-weight: bold;
+                    color: $cor-branca;
+                    line-height: 64px;
+                }
+            }
+        }
+    }
+
+    .conteudo-login{
+        background: $cor-login;
+        width: 51.3%;
+        height: 95.9%;
+        flex-shrink: 1;
+        border-radius: 5px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 64px 64px 0px 64px;
+            align-items: flex-start;
+            height: 60%;
+
+            .div-inputs{
+                display: flex;
+                align-items: center;
+
+                width: calc(100%);
+                height: 50px;
+                border-radius: 5px;
+                background: $cor-fundo;
+                margin-bottom: 10px;
+                position: relative;
+
+                svg {
+                    left: 15px;
+                    height: 16px;
+                    width: 14px;
+                    position: absolute;
+                    fill: #28272c;
+                }
+
+                .olho{
+                    margin-left: 87%;
+                    height: 18px;
+                    width: 18px;
+                    position: absolute; 
+                    fill: $cor-padrao;
+                }
+
+                .input{
+                    width: calc(100%);
+                    height: 100%;
+                    background: transparent;
+                    font-size: 16px;
+                    padding-left: 42px;
+                    border-color: transparent;
+                    outline: 0;
+                    box-sizing: border-box;
+                    color: $cor-branca;
+                }
+
+                .input:focus{
+                    border: 2px solid $cor-padrao;
+                    border-radius: 5px;
+                }
+            }
+
+            a{
+                color: $cor-padrao;
+                font-weight: bold;
+                text-decoration: none;
+                opacity: 0.7;
+                font-size: 14px;
+                margin-top: 5px;
+            }
+            
+            #botao{
+                margin-top: 25px;
+                width: 100%;
+                font-size: 16px;
+                font-weight: bold;
+                color: rgba(255, 255, 255, 0.35);
+                background: rgb(65, 53, 107);
+                border-radius: 5px;
+                opacity: 0.9;
+                height: 50px;
+                border: none;
+                text-transform: uppercase;
+                margin-bottom: 24px;
+            }
+
+            #botao:hover{
+                background: $cor-padrao;
+                color: $cor-branca;
+                transition: 400ms;
+                cursor: pointer;
+            }
+
+            .conta{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                strong{
+                    font-size: 14px;
+                    color: rgb(204, 204, 204);
+                    padding: 3px;
+                }
+            }
+
+            .separador{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 22px;
+                width: 100%;
+
+                .esquerda{
+                    width: calc(50% - 25px);
+                    height: 1px;
+                    background:rgb(40, 39, 47);
+                }
+
+                .direita{
+                    width: calc(50% - 25px);
+                    height: 1px;
+                    background:rgb(40, 39, 47);
+                }
+            }
+        }
+
+        .github{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 12px;
+            font-size: 14px;
+            color: $cor-branca;
+
+            .botao2{
+                margin-left: 23px;
+                height: 50px;
+                width: 245px;
+                border-radius: 5px;
+                background: rgb(41, 41, 46);
+                border: none;
+                color: $cor-branca;
+                font-size: 16px;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: 400ms;
+
+                svg{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                    fill: $cor-padrao;
+                    transition: 400ms;
+                }
+            }
+
+            .botao2:hover{
+                background: $cor-padrao;
+
+                svg{
+                    fill: $cor-branca;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,174 @@
+html, body {
+  background: #121214;
+  font-family: 'Roboto', sans-serif;
+  height: 100%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #121214;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.principal {
+  display: flex;
+  align-items: flex-start;
+  height: 496px;
+  width: 936px;
+  padding: 62px; }
+  .principal .conteudo-titulo {
+    height: 100%;
+    width: 48.7%;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1; }
+    .principal .conteudo-titulo .conteudo-titulo-alinhado {
+      height: 45%;
+      width: 100%;
+      margin-top: 23.8%;
+      display: flex;
+      flex-direction: column; }
+      .principal .conteudo-titulo .conteudo-titulo-alinhado .img-alinhado {
+        flex-grow: 1;
+        margin-bottom: 14%; }
+        .principal .conteudo-titulo .conteudo-titulo-alinhado .img-alinhado img {
+          width: 192px;
+          height: 37px; }
+      .principal .conteudo-titulo .conteudo-titulo-alinhado .titulo-alinhado {
+        max-width: 350px; }
+        .principal .conteudo-titulo .conteudo-titulo-alinhado .titulo-alinhado h1 {
+          font-size: 54px;
+          font-weight: bold;
+          color: #e1e1e6;
+          line-height: 64px; }
+  .principal .conteudo-login {
+    background: #202024;
+    width: 51.3%;
+    height: 95.9%;
+    flex-shrink: 1;
+    border-radius: 5px; }
+    .principal .conteudo-login form {
+      display: flex;
+      flex-direction: column;
+      padding: 64px 64px 0px 64px;
+      align-items: flex-start;
+      height: 60%; }
+      .principal .conteudo-login form .div-inputs {
+        display: flex;
+        align-items: center;
+        width: calc(100%);
+        height: 50px;
+        border-radius: 5px;
+        background: #121214;
+        margin-bottom: 10px;
+        position: relative; }
+        .principal .conteudo-login form .div-inputs svg {
+          left: 15px;
+          height: 16px;
+          width: 14px;
+          position: absolute;
+          fill: #28272c; }
+        .principal .conteudo-login form .div-inputs .olho {
+          margin-left: 87%;
+          height: 18px;
+          width: 18px;
+          position: absolute;
+          fill: #7c62d4; }
+        .principal .conteudo-login form .div-inputs .input {
+          width: calc(100%);
+          height: 100%;
+          background: transparent;
+          font-size: 16px;
+          padding-left: 42px;
+          border-color: transparent;
+          outline: 0;
+          box-sizing: border-box;
+          color: #e1e1e6; }
+        .principal .conteudo-login form .div-inputs .input:focus {
+          border: 2px solid #7c62d4;
+          border-radius: 5px; }
+      .principal .conteudo-login form a {
+        color: #7c62d4;
+        font-weight: bold;
+        text-decoration: none;
+        opacity: 0.7;
+        font-size: 14px;
+        margin-top: 5px; }
+      .principal .conteudo-login form #botao {
+        margin-top: 25px;
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.35);
+        background: #41356b;
+        border-radius: 5px;
+        opacity: 0.9;
+        height: 50px;
+        border: none;
+        text-transform: uppercase;
+        margin-bottom: 24px; }
+      .principal .conteudo-login form #botao:hover {
+        background: #7c62d4;
+        color: #e1e1e6;
+        transition: 400ms;
+        cursor: pointer; }
+      .principal .conteudo-login form .conta {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        .principal .conteudo-login form .conta strong {
+          font-size: 14px;
+          color: #cccccc;
+          padding: 3px; }
+      .principal .conteudo-login form .separador {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 22px;
+        width: 100%; }
+        .principal .conteudo-login form .separador .esquerda {
+          width: calc(50% - 25px);
+          height: 1px;
+          background: #28272f; }
+        .principal .conteudo-login form .separador .direita {
+          width: calc(50% - 25px);
+          height: 1px;
+          background: #28272f; }
+    .principal .conteudo-login .github {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 12px;
+      font-size: 14px;
+      color: #e1e1e6; }
+      .principal .conteudo-login .github .botao2 {
+        margin-left: 23px;
+        height: 50px;
+        width: 245px;
+        border-radius: 5px;
+        background: #29292e;
+        border: none;
+        color: #e1e1e6;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 400ms; }
+        .principal .conteudo-login .github .botao2 svg {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+          fill: #7c62d4;
+          transition: 400ms; }
+      .principal .conteudo-login .github .botao2:hover {
+        background: #7c62d4; }
+        .principal .conteudo-login .github .botao2:hover svg {
+          fill: #e1e1e6; }
+
+/*# sourceMappingURL=style.css.map */
